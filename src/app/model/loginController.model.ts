@@ -1,9 +1,10 @@
 export class LoginController
 {
     constructor( public username:string|undefined,
-        public roles:string|undefined){
+        public roles:string|undefined,public password:string){
             this.username;
             this.roles;
+            this.password;
         }
    
     

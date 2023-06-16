@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    border: 1px solid black;
+    position: fixed;
+    width: 240px;
+    height: 763px;
+    background-color: black;
+}
+
+.nav-bar {
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-body {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.menu {
+    font-size: 28px;
+    margin-top: 40px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    border: 1px solid white;
+}
+
+.menu-btn {
+    border: 1px solid black;
+    color: #bdb8d7;
+}

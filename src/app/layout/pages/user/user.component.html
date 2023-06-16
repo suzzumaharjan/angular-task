@@ -1,0 +1,35 @@
+<app-dashboard-sidebar></app-dashboard-sidebar>
+<div class="card-body">
+    <div class="container">
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>S.N.</th>
+                    <th>fullname</th>
+                    <th>email</th>
+                    <th>address</th>
+                    <th>contact</th>
+                    <th>action</th>
+                    <th>action</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of Users;index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{user.full_name}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.address}}</td>
+                    <td>{{user.contact_number}}</td>
+
+
+                </tr>
+
+
+
+            </tbody>
+
+
+        </table>
+    </div>
+</div>
