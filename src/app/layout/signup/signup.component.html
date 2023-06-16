@@ -1,0 +1,32 @@
+<form [formGroup]="loginData" (ngSubmit)="onlogin()">
+    <div>
+        <label>Username</label>
+        <input formControlName="username" type="text" class="form-control">
+    </div>
+    <div>
+        <label>Roles</label>
+        <input formControlName="roles" type="text" class="form-control">
+    </div>
+    <button type="submit">Log in</button>
+</form>
+
+
+<table class="table table-dark table-hover text-center">
+    <thead>
+        <tr>
+
+            <th>fullname</th>
+            <th>username</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of Controllers; index as i">
+            <td>{{user.username}}</td>
+            <td>{{user.roles}}</td>
+        </tr>
+
+    </tbody>
+
+
+</table>
