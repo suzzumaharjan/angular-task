@@ -1,0 +1,33 @@
+<app-dashboard-sidebar></app-dashboard-sidebar>
+<div class="card-body">
+    <div class="container">
+        <table class="item-table">
+            <thead>
+                <tr>
+                    <th>S.N.</th>
+                    <th>itemname</th>
+                    <th>quantity</th>
+                    <th>rate</th>
+                    <th>total</th>
+                    <th>action</th>
+                    <th>action</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of Item;index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{item.item_name}}</td>
+                    <td>{{item.quantity}}</td>
+                    <td>{{item.rate}}</td>
+                    <td>{{item.total}}</td>
+                </tr>
+
+
+
+            </tbody>
+
+
+        </table>
+    </div>
+</div>
